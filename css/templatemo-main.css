@@ -124,7 +124,7 @@ a:hover { color: #FF0; }
 
 .primary-button a {
   display: inline-block;
-  background-color: #c2a2dd;
+  background-color: #ff7d27;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ a:hover { color: #FF0; }
 }
 
 .baner-content em {
-  color: #c2a2dd;
+  color: #ff7d27;
   font-weight: 600;
   font-style: normal;
 }
@@ -242,7 +242,7 @@ h4, .h4 {
 }
 
 .service-content em {
-  color: #c2a2dd;
+  color: #ff7d27;
   font-weight: 600;
   font-style: normal;
 }
