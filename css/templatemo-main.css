@@ -404,7 +404,7 @@ section {
 }
 
 .contact-content em {
-  color: #c2a2dd;
+  color: #ff7d27;
   font-weight: 600;
   font-style: normal;
 }
@@ -421,7 +421,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/PPD_cut.jpg);
+  background-image: url(../img/molecular_cloud_bgi.jpg);
 }
 
 .contact-form {
