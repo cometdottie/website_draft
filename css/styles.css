@@ -34,6 +34,20 @@
 	-webkit-animation: bgout 1s forwards;
 }
 
+#bgimage2 {
+	content:url(../img/molecular_cloud_bgi.jpg);
+	position: absolute;
+	left:0;
+	top: 0;   
+	width: 100%;
+	z-index: -1;
+	-webkit-animation: bgin 1s forwards;
+}
+
+/*#bgimage2:hover {
+	-webkit-animation: bgout 1s forwards;
+}*/
+
 .clickables {
 	z-index: 1;
 	animation: shrink-element 0.5s forwards;
@@ -143,6 +157,177 @@
 	animation: blend-in 1.0s forwards;
 }
 
+.dust{
+
+}
+
+.dust-1{
+	content:url(../img/dust.PNG);
+	position: absolute;
+	width: 20%;
+	top: 10%;
+	left: 10%;
+}
+
+#dust-text{
+	content:url(../img/dust-text.png);
+	position: absolute;
+	width: 20%;
+	top: 5%;
+	left: 30%;
+	opacity: 0.0;
+	animation: blend-out 0.5s forwards;	
+}
+
+.dust:hover .dust-1{
+	animation: grow-element 1.0s forwards;
+	z-index: 4;
+}
+
+.dust:hover #dust-text{
+	animation: blend-in 1.0s forwards;
+}
+
+.dust-to-pebbles {
+}
+
+.dust-to-pebbles-01 {
+	content:url(../img/collision.gif);
+	position: absolute;
+	width: 17%;
+	top: 40%;
+	left: 15%;
+}
+
+.dust-to-pebbles-02 {
+	content:url(../img/arrow1.PNG);
+	position: absolute;
+	width: 15%;
+	top: 32%;
+	left: 23%;
+}
+
+#dust-to-pebbles-text {
+	content:url(../img/dust-pebble-text.PNG);
+	position: absolute;
+	width: 20%;
+	top: 60%;
+	left: 4%;
+	opacity: 0.0;
+	animation: blend-out 0.5s forwards;
+}
+
+.dust-to-pebbles:hover .dust-to-pebbles-01{
+	animation: grow-element 1.0s forwards;
+	z-index: 4;
+}
+
+.dust-to-pebbles:hover #dust-to-pebbles-text{
+	animation: blend-in 1.0s forwards;
+	z-index: 5;
+}
+
+.pebbles{
+}
+
+.pebbles-01 {
+	content:url(../img/pebble.PNG);
+	position: absolute;
+	width: 20%;
+	top: 30%;
+	left: 40%;
+}
+
+#pebbles-text {
+	content:url(../img/pebble-text.png);
+	position: absolute;
+	width: 20%;
+	top: 20%;
+	left: 40%;
+	opacity: 1.0;
+	animation: blend-out 0.5s forwards;
+}
+
+.pebbles:hover .pebbles-01{
+	animation: grow-element 1.0s forwards;
+	z-index: 4;
+}
+
+
+.pebbles:hover #pebbles-text{
+	animation: blend-in 1.0s forwards;
+}
+
+.pebbles-to-planetesimals {
+}
+
+.pebbles-to-planetesimals-01 {
+	content:url(../img/sticking_19mms-1.GIF);
+	position: absolute;
+	width: 17%;
+	top: 21%;
+	left: 68%;
+}
+
+.pebbles-to-planetesimals-02 {
+	content:url(../img/arrow2.PNG);
+	position: absolute;
+	width: 15%;
+	top: 34%;
+	left: 63%;
+}
+
+#pebbles-to-planetesimals-text {
+	content:url(../img/pebble-planetesimals-text.PNG);
+	position: absolute;
+	width: 20%;
+	top: 7%;
+	left: 75%;
+	opacity: 0.0;
+	animation: blend-out 0.5s forwards;
+}
+
+.pebbles-to-planetesimals:hover .pebbles-to-planetesimals-01{
+	animation: grow-element 1.0s forwards;
+	z-index: 4;
+}
+
+.pebbles-to-planetesimals:hover #pebbles-to-planetesimals-text{
+	animation: blend-in 1.0s forwards;
+	z-index: 5;
+}
+
+
+.planetesimals{
+}
+
+.planetesimals-01 {
+	content:url(../img/arrokoth_cut.PNG);
+	position: absolute;
+	width: 20%;
+	top: 48%;
+	left: 71%;
+}
+
+#planetesimals-text {
+	content:url(../img/planetesimals-text.PNG);
+	position: absolute;
+	width: 20%;
+	top: 73%;
+	left: 79%;
+	opacity: 0.0;
+	animation: blend-out 0.5s forwards;
+}
+
+.planetesimals:hover .planetesimals-01{
+	animation: grow-element 1.0s forwards;
+	z-index: 2;
+}
+
+
+.planetesimals:hover #planetesimals-text{
+	animation: blend-in 1.0s forwards;
+}
 
 @-webkit-keyframes bgin {
     from { -webkit-filter:grayscale(1.0); }
